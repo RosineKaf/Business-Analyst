@@ -4,6 +4,11 @@ Ce portfolio rassemble des projets où je pars d'une question métier pour arriv
 
 ## 📁 Projets
 
+### 📈 [Rapport de gestion commerciale – Power BI](Gestion_Commerciale_PowerBI)
+- **Question métier :** quels clients, produits et segments portent le chiffre d'affaires ?
+- **Démarche :** tableau de bord de 4 pages avec KPI, filtres et navigation, mesures DAX.
+- **Outils :** Power BI, Power Query, Excel
+
 ### 🚴 [Cyclistic – Vélos en libre-service](Cyclistic_Bike_Share_Data_Analysis)
 - **Question métier :** comment convertir les usagers occasionnels en abonnés ?
 - **Démarche :** nettoyage et calcul des KPI en SQL (BigQuery), visualisation sous Tableau, rapport de recommandations.
