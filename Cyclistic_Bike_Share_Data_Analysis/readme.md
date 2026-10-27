@@ -1,38 +1,38 @@
-# 🚴‍♂️ Cyclistic Bike-Share Analysis
+# 🚴 Cyclistic – Analyse d'un service de vélos en libre-service
 
 ## 📌 Contexte
-Ce projet fait partie du Google Data Analytics Capstone.  
-L’objectif est d’analyser les habitudes d’utilisation des vélos Cyclistic à Chicago et de proposer une stratégie pour convertir les usagers occasionnels en abonnés.
+Projet de fin du certificat **Google Data Analytics**. Cyclistic, service de vélos en libre-service à Chicago, veut convertir ses usagers occasionnels en abonnés.
 
 ## 🎯 Objectif
-- Comparer l'utilisation des vélos entre membres et usagers occasionnels  
-- Identifier les tendances d’utilisation (durée des trajets, horaires, stations les plus utilisées)  
-- Proposer des recommandations basées sur les insights  
+- Comparer l'usage des abonnés et des usagers occasionnels
+- Identifier les tendances : durée des trajets, heures de pointe, stations les plus utilisées
+- Proposer des recommandations pour augmenter les abonnements
 
-## 🛠️ Outils Utilisés
-- SQL (BigQuery) → Nettoyage et analyse des données  
-- Tableau Public → Visualisation des tendances  
-- Google Sheets / Excel → Vérification et documentation  
+## 🛠️ Outils
+- **SQL (Google BigQuery)** : nettoyage, transformation et calcul des KPI
+- **Tableau Public** : visualisations
+- **Excel / Google Sheets** : vérification des données
 
-## 📊 Analyses Réalisées
-- ✔ Durée moyenne des trajets → Les usagers occasionnels roulent plus longtemps que les abonnés  
-- ✔ Jours et heures de pointe → Les membres roulent plus en semaine, les occasionnels le week-end  
-- ✔ Stations les plus populaires → Différence d’utilisation entre membres et occasionnels  
+## 📊 Résultats clés
+- Les usagers occasionnels font des trajets **plus longs** que les abonnés
+- Les abonnés roulent surtout **en semaine**, les occasionnels **le week-end**
+- Les stations les plus fréquentées **diffèrent** entre les deux profils
 
-## 📈 Visualisations
-🔹 Voir les graphiques sur Tableau Public : [Lien Tableau Public](https://public.tableau.com/app/profile/rosine.kafando/vizzes)
+| Durée des trajets | Heures de pointe | Trajets par jour |
+|---|---|---|
+| ![Durée](Visualisation/Trip_duration.png) | ![Heures de pointe](Visualisation/Peak_hours.png) | ![Jours](Visualisation/Nombre_Trajets_Jour_Semaine.png) |
 
-## 📜 Requêtes SQL
-📂 Voir le fichier SQL : [Cyclistic_Analysis.sql](https://github.com/RosineKaf/Project_cyclic/blob/03_analysis.sql/Cyclistic_Analysis.sql)
+🔗 [Tableaux de bord sur Tableau Public](https://public.tableau.com/app/profile/rosine.kafando/vizzes)
 
-## 📑 Rapport Final
-📂 Lire le rapport complet : [Rapport final](https://github.com/RosineKaf/Project_cyclic/blob/main/Rapport_final_Projet_Cyclistic.pdf)
+## 🚀 Recommandations
+1. Proposer une offre d'essai de l'abonnement aux usagers occasionnels
+2. Créer des offres en semaine pour les trajets domicile-travail
+3. Cibler les zones touristiques avec des campagnes adaptées
 
-## 🚀 Recommandations Business
-1. Offrir des réductions aux usagers occasionnels pour tester l’abonnement  
-2. Promouvoir l’utilisation en semaine avec des offres spéciales pour les trajets domicile-travail  
-3. Cibler les zones touristiques avec des campagnes adaptées  
+## 📂 Livrables
+- [`SQL/01_cleaning_transformation.sql`](SQL/01_cleaning_transformation.sql) : préparation des données
+- [`SQL/02_analysis_kpis.sql`](SQL/02_analysis_kpis.sql) : calcul des KPI
+- [`Rapport/Rapport_final_Projet_Cyclistic_Bike_Share.pdf`](Rapport/Rapport_final_Projet_Cyclistic_Bike_Share.pdf) : rapport final
 
-## 📌 Auteur
-👤 Rosine Armelle Tinbo KAFANDO : [GitHub](https://github.com/RosineKaf)  
-📧 Contact : armellekafando16@gmail.com / rosinekafando@myyahoo.com
+## 👤 Auteure
+Rosine Armelle · [LinkedIn](https://www.linkedin.com/in/rosine-armelle-tinbo-kafando) · [Retour au portfolio](../README.md)
