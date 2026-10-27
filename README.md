@@ -1,45 +1,30 @@
-# Portfolio Business Analyst – Rosine Armelle Tinbo KAFANDO
+# Portfolio Data & Business Analyst – Rosine Armelle
 
-Bienvenue sur mon Business Analyst Portfolio, présentant des études de cas complètes, des livrables de requirements, des modèles de processus et des analyses.
-Ce portfolio montre ma capacité à traduire des problématiques métiers en **exigences claires**, à optimiser des processus et à produire des résultats mesurables en utilisant des outils standards de l’industrie BA tels qu’**Excel, SQL, Power BI, Tableau **.
+Ce portfolio rassemble des projets où je pars d'une question métier pour arriver à des recommandations concrètes : recueil du besoin, préparation des données, analyse et restitution.
 
----
+## 📁 Projets
 
-## À propos de moi
+### 🚴 [Cyclistic – Vélos en libre-service](Cyclistic_Bike_Share_Data_Analysis)
+- **Question métier :** comment convertir les usagers occasionnels en abonnés ?
+- **Démarche :** nettoyage et calcul des KPI en SQL (BigQuery), visualisation sous Tableau, rapport de recommandations.
+- **Outils :** SQL, Tableau, Excel
 
-Je suis une **Business Analyst / AMOA junior** avec une expérience pratique dans :
+### ⌚ [Bellabeat – Objets connectés](Bellabeat_Wearable_Data_Insights)
+- **Question métier :** quelles tendances d'activité et de sommeil peuvent orienter la stratégie marketing de Bellabeat ?
+- **Démarche :** préparation des données, analyse exploratoire et visualisations.
+- **Outils :** R (tidyverse, ggplot2)
 
-- Recueil et documentation des exigences métiers
-- Modélisation de processus 
-- Analyse de données avec SQL et Excel
-- Collaboration avec les parties prenantes
-- Support à la livraison Agile (Scrum)
+### 🔐 [Gestion des accès ESIGELEC](gestion-acces-esigelec)
+- **Besoin client :** contrôler et sécuriser l'accès aux locaux de l'école selon le profil, la zone et l'horaire.
+- **Démarche :** cycle projet complet en binôme, de la spécification à la recette (DSL, conception, plan de validation).
+- **Outils :** UML, SQL (MySQL)
 
-Mon travail se concentre sur **l’amélioration de l’efficacité**, **la réduction des risques opérationnels** et **la prise de décisions basée sur les données**.
+## 🛠️ Compétences
 
----
+- **Analyse métier** : recueil du besoin, spécifications fonctionnelles, modélisation UML, plan de validation / recette
+- **Données** : SQL, Power BI, Power Query, Excel, Tableau, R
+- **Méthodes** : Agile / Scrum, Kanban, cycle en V
 
-## Compétences principales et outils
+## 📫 Contact
 
-### Analyse métier
-- Rédaction de Business Requirements Documents (BRD)
-- Exigences fonctionnelles et non fonctionnelles (FRD / NFR)
-- Analyse des parties prenantes 
-- User Stories & critères d’acceptation
-- Planification et support UAT
-
-### Processus et données
-- SQL (analyse des données et suivi KPI)
-- Tableaux de bord Excel & analyse pivot
-- Mesure des KPIs
-
-### Méthodologies
-- Agile / Scrum
-- SDLC (Cycle en V, Agile)
-- Amélioration continue
-
----
-
-## Contact
-- Email : [armellekafando16@gmail.com](mailto:armellekafando16@gmail.com)
-- LinkedIn : [à ajouter plus tard]()
+[LinkedIn](https://www.linkedin.com/in/rosine-armelle-tinbo-kafando) · [armellekafando16@gmail.com](mailto:armellekafando16@gmail.com)
