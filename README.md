@@ -9,6 +9,11 @@ Ce portfolio rassemble des projets où je pars d'une question métier pour arriv
 - **Démarche :** tableau de bord de 4 pages avec KPI, filtres et navigation, mesures DAX.
 - **Outils :** Power BI, Power Query, Excel
 
+### 🛡️ [Assurance – Primes et rendement des contrats (Power BI)](Assurance_PowerBI)
+- **Question métier :** d'où viennent les primes d'un assureur vie et quelle valeur les contrats apportent-ils aux assurés ?
+- **Démarche :** modèle en étoile (1 table de faits, 6 dimensions), rapport de 5 pages avec filtres synchronisés.
+- **Outils :** Power BI, Power Query
+
 ### 🚴 [Cyclistic – Vélos en libre-service](Cyclistic_Bike_Share_Data_Analysis)
 - **Question métier :** comment convertir les usagers occasionnels en abonnés ?
 - **Démarche :** nettoyage et calcul des KPI en SQL (BigQuery), visualisation sous Tableau, rapport de recommandations.
