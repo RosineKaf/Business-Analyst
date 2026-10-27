@@ -1,26 +1,30 @@
-# 📊 Bellabeat Analysis - Data Science Project  
+# ⌚ Bellabeat – Analyse des données d'objets connectés
 
-## 📝 Description  
-Ce projet analyse l'utilisation des appareils connectés Bellabeat pour comprendre les tendances d'activité physique, de sommeil et de fréquence cardiaque.  
+## 📌 Contexte
+Bellabeat conçoit des objets connectés de santé pour les femmes. Ce projet, réalisé dans le cadre du certificat **Google Data Analytics**, analyse les données d'utilisateurs d'objets connectés pour orienter la stratégie marketing de l'entreprise.
 
-## 📂 Contenu du Projet  
-- 📁 **visualisations/** → Graphiques et insights  
-- 📜 **README.md** → Présentation du projet  
+## 🎯 Objectif
+- Identifier les tendances d'activité physique, de sommeil et de dépense calorique
+- Traduire ces tendances en recommandations pour le marketing de Bellabeat
 
-## 📊 Méthodologie  
-✅ Nettoyage et préparation des données avec **R** (`tidyverse`, `dplyr`)  
-✅ Analyse exploratoire des tendances d'activité et de sommeil  
-✅ Visualisation avec **ggplot2**  
-✅ Recommandations stratégiques pour Bellabeat  
+## 🛠️ Outils
+- **R** (tidyverse, dplyr) : nettoyage et préparation des données
+- **ggplot2** : visualisations
 
-## 📈 Visualisations   
-![`Pour voir les images suivez ce lien`]*[https://github.com/RosineKaf/RosineKaf/bellabeat_analysis/blob/main/Visualisation](https://github.com/RosineKaf/RosineKaf/tree/main/Bellabeat_Wearable_Data_Insights/Visualisation)*
+## 📊 Résultats
 
+| Pas quotidiens vs calories brûlées | Distribution des pas quotidiens |
+|---|---|
+| ![Pas vs calories](Visualisation/Pas_quotidiens%20vs.%20Calories_br%C3%BBl%C3%A9es.png) | ![Distribution des pas](Visualisation/Distribution_pas_quotidien.png) |
 
-## 🚀 Comment exécuter le projet ?  
-```r
-# Charger les librairies
-library(tidyverse)
+| Moyenne par jour | Analyse des pas quotidiens |
+|---|---|
+| ![Moyenne par jour](Visualisation/moyenne_par_jour.png) | ![Analyse des pas](Visualisation/analyse_pas_quotidiens.png) |
 
-# Importer les données
-activity_data <- read_csv("data/dailyActivity.csv")
+📄 [Distribution du temps de sommeil (PDF)](Visualisation/distribution_temps_sommeil.pdf)
+
+## 📂 Contenu
+- [`Visualisation/`](Visualisation) : graphiques de l'analyse
+
+## 👤 Auteure
+Rosine Armelle · [LinkedIn](https://www.linkedin.com/in/rosine-armelle-tinbo-kafando) · [Retour au portfolio](../README.md)
