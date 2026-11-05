@@ -1,0 +1,7 @@
+﻿Modèle;Indicateur;Valeur
+Régression logistique;AUC (validation croisée);0,742
+Régression logistique;AUC (test);0,736
+Régression logistique;Précision globale;0,702
+Régression logistique;Précision (Dead);0,284
+Régression logistique;Rappel (Dead);0,623
+Régression logistique;F1 (Dead);0,39
